@@ -2,7 +2,7 @@
 ### Portfolio website  with awesome UI/UX 
 Technology used: HTML5, vanilla CSS, vanilla Javascript
 
-### 🐳 Live Link: https://shehbaz456.github.io/Portfolio/
+### 🐳 Live Link: https://shehbaz456.github.io/Portfolio
 
 #### Landing Page
 
