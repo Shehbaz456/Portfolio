@@ -4,421 +4,448 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@300;400;500&display=swap"
-    rel="stylesheet">
+  <meta name="description" content="Shehbaz - Full-stack Developer with expertise in MERN stack and frontend development">
+  <meta name="keywords" content="web developer, MERN stack, full stack developer, frontend developer">
+  <meta name="author" content="Shehbaz">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+  <!-- Favicon -->
   <link rel="shortcut icon" href="./favicon_io/android-chrome-512x512.png" type="image/x-icon">
-  <link rel="stylesheet" href="contact.css">
+  
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="style.css">
-  <title>PORTFOIO</title>
+  
+  <title>Shehbaz | Full Stack Developer</title>
 </head>
 
 <body>
-  <!-- =====================================
-      Start Our Header section 
-      ===================================== -->
-  <header class="header">
-    <div class="navbar-con">
-      <!-- <img class="main-logo" src="./image/4AA-removebg-preview.png" alt=""> -->
-      <img class="main-logo" src="./image/4AA-removebg-preview.svg" alt="logo">
-      <nav class="navbar">
-        <ul class="navbar-list flex">
-          <li><a class="navbar-link" href="#">HOME</a></li>
-          <li><a class="navbar-link" href="#Feacture_section">FEATURES</a></li>
-          <li><a class="navbar-link" href="./Shehbaz_Resume.pdf">RESUME</a></li>
-          <li><a class="navbar-link" href="#">CONTACT</a></li>
-          <a href="./Shehbaz_Resume.pdf"><button class="custom-btn btn-15">HIRE ME</button></a>
-        </ul>
-      </nav>
-      <div class="mob-nav-btn">
-        <ion-icon name="close-outline" class="mob-nav-icon"></ion-icon>
-        <ion-icon name="menu-outline" class="mob-nav-icon"></ion-icon>
+  <!-- Header Section -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="navbar-con">
+        <a href="#" class="logo-link" aria-label="Shehbaz Logo">
+          <img class="main-logo" src="./image/logoIcon.svg" alt="Shehbaz Logo">
+        </a>
+        
+        <nav class="navbar" id="navbar">
+          <ul class="navbar-list">
+            <li><a class="navbar-link" href="#home">Home</a></li>
+            <li><a class="navbar-link" href="#features">Features</a></li>
+            <li><a class="navbar-link" href="#projects">Projects</a></li>
+            <li><a class="navbar-link" href="./Shehbaz_Resume.pdf" target="_blank">Resume</a></li>
+            <li><a class="navbar-link" href="#contact">Contact</a></li>
+            <li>
+              <a href="./Shehbaz_Resume.pdf" target="_blank">
+                <button class="custom-btn btn-primary">Hire Me</button>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        
+        <button class="mob-nav-btn" id="mob-nav-btn" aria-label="Toggle navigation menu">
+          <ion-icon name="close-outline" class="mob-nav-icon"></ion-icon>
+          <ion-icon name="menu-outline" class="mob-nav-icon"></ion-icon>
+        </button>
       </div>
     </div>
   </header>
 
-  <!-- =====================================
-      Start Our hero section 
-    ======================================== -->
-  <section class="main-hero-section">
-    <div class="hero-section">
-      <div class="hero-le">
-        <span>WELCOME TO MY WORLD</span>
-        <h1 style="padding: 1rem 0;">Hi, I’m <span style="color: var(--pri-pink-col)">Shehbaz</span>
-        </h1>
-        <h4>a <span class="multi-text" style="color: var(--main-black-col);"></span></h4>
-        <p style="font-size: 1.6rem; line-height: 2.5rem;margin: 20px 0;">Full-stack Developer with IBM internship
-          experience as a "Frontend Developer." Adept at both frontend and backend technologies, passionate about
-          enhancing user experiences through innovative solutions.</p>
-        <div class="Skills-con" style="    display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 35px;
-        margin-top: var(--mb-3);
-    ">
-          <div class="skills-sections">
-            <p style="font-size: 1.4rem; margin-bottom: var(--mb-2);">BEST SKILL ON</p>
-            <div class="icon-skill-con">
-              <div class="icon-skill"><img src="./image/icons8-javascript.gif" alt=""></div>
-              <div class="icon-skill"><img src="./image/icons3-react.png" alt=""></div>
-              <div class="icon-skill"><img src="./image/icons8-nodejs-48.png" alt=""></div>
-              <div class="icon-skill"><img src="./image/icons1-mongodb.png" alt=""></div>
-            </div>
-          </div>
-          <div class="skills-sections" style="padding-right: 30px;">
-            <p style="font-size: 1.4rem; margin-bottom: 2rem;">FIND WITH ME</p>
-            <div class="icon-skill-con">
-              <a href="https://github.com/Shehbaz456">
-                <div class="icon-skill"><img src="./image/icons8-github.svg" alt=""></div>
-              </a>
-              <a href="https://www.linkedin.com/in/shehbazlovedev/">
-                <div class="icon-skill"><img src="./image/icons8-linkedin.svg" alt=""></div>
-              </a>
-              <a href="mailto:iamshehbaz01@gmail.com">
-                <div class="icon-skill"><img src="./image/icons8-gmail.svg" alt=""></div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="hero-img">
-        <img style="width: 100%;" src="image/main img 05.png" alt="img">
-      </div>
-    </div>
-    <div class="empty-space" style="padding-top: 6rem; background-color: var(--main-bg-col);"></div>
-  </section>
-  <div class="empty-space" style="margin-inline: auto;width: 90%; border-top: 1px solid rgb(160, 157, 157);"></div>
-
-
-
-  <!-- =====================================
-      Start Feacture section 
-    ======================================== -->
-  <section class="sl2-bgcol">
-    <div id="Feacture_section" style="padding-top: 2.5rem; max-width: 1440px; margin-inline: auto;">
+  <main>
+    <!-- Hero Section -->
+    <!-- <section id="home" class="section-padding"> -->
       <div class="container">
-        <div class="sl2-top-con">
-          <p style="color: var(--pri-pink-col); font-size: var(--p-fontsize1); padding-bottom: 2rem;">FEATURES</p>
-          <h2 style="font-size: 4rem; font-weight: 700; padding-bottom: 2rem;">WHAT I DO</h2>
-        </div>
-      </div>
-
-      <div class="container sl2-grid-con">
-        <div class="sl2-card sl2-card1-bottom-col text-center">
-          <div class="sl2-icon sl2-icon1-col">
-            <button>
-              <img width="40px" src="image/responsive-design.png" alt="">
-            </button>
-          </div>
-          <p class="sl2-headig">Customized Solutions</p>
-          <p class="sl2-sub-heading">
-            Tailored web development to meet specific business needs, ensuring a unique and effective online presence.
-          </p>
-        </div>
-
-        <div class="sl2-card sl2-card5-bottom-col">
-          <div class="sl2-icon sl2-icon5-col ">
-            <button>
-              <img src="svg-export/svgexport-14.svg" alt="">
-            </button>
-          </div>
-          <p class="sl2-headig">Intuitive UI/UX Designs</p>
-          <p class="sl2-sub-heading">
-            Crafting engaging and user-centric interfaces, we ensure an exceptional user experience that keeps visitors
-            engaged and converts them into customers.
-          </p>
-        </div>
-
-        <div class="sl2-card sl2-card6-bottom-col">
-          <div class="sl2-icon sl2-icon6-col ">
-            <button>
-              <img src="svg-export/svgexport-15.svg" alt="">
-            </button>
-          </div>
-          <p class="sl2-headig">Performance Optimization</p>
-          <p class="sl2-sub-heading">
-            Implementing best practices to ensure fast loading times, smooth navigation, and overall superior
-            performance for end-users.
-          </p>
-        </div>
-        <div style="height: 50px; width: 100%;"></div>
-      </div>
-    </div>
-
-  </section>
-
-
-
-
-
-  <div class="empty-space" style="margin-inline: auto;width: 90%; border-top: 1px solid rgb(160, 157, 157);"></div>
-
-
-  <!-- =====================================
-      Start Our Project section 
-    ===================================== -->
-
-  <section style="padding-top:8rem; background-color: var(--main-bg-col); padding-bottom: 8rem;">
-    <div class="heading-con text-center">
-      <p style="color: var(--pri-pink-col); font-size: var(--p-fontsize1); padding-bottom: 2rem;">VISIT MY Projects AND
-        KEEP YOUR FEEDBACK</p>
-      <h2 style="font-size: 4rem; font-weight: 700; padding-bottom: 4rem;">My Projects</h2>
-    </div>
-
-   
-
-    <div class="proj-card-con flex">
-
-      <div class="pro-card pro1">
-        <img width="100%" src="./image/Code-Help_(Nest Hub).png" alt="">
-        <div style="padding: 20px;">
-          <div
-            style="display: flex; justify-content: space-between; padding-bottom: 20px; font-size: var(--p-fontsize1);">
-            <p>DEVELOPMENT</p>
-            <div class="flex" style="gap: 10px;">
-              <i class='bx bx-heart'></i>
-              <p>340</p>
-            </div>
-          </div>
-          <a href="https://shehbaz456.github.io/Code-Help/" target="_blank">
-            <h2>Code Help is online learning platform Upskill students<i
-                class='bx bx-right-top-arrow-circle up-arrow-icon'></i></h2>
-          </a>
-        </div>
-      </div>
-
-      <div class="pro-card pro1" style="padding: 10px; margin: 10px; width: 35rem; background-color: #8285da; background-color: var(--card-bg-col);box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
-        border-radius: 7px;">
-        <img width="100%" src="./image/javeline-main-project-0002.png" alt="">
-        <div style="padding: 20px;">
-          <div
-            style="display: flex; justify-content: space-between; padding-bottom: 20px; font-size: var(--p-fontsize1);">
-            <p>DEVELOPMENT</p>
-            <div class="flex" style="gap: 10px;">
-              <i class='bx bx-heart'></i>
-              <p>600</p>
-            </div>
-          </div>
-          <a href="https://shehbaz456.github.io/Jevelin-web/" target="_blank">
-            <h2>Jevelin-web CREATIVE
-              AGENCY offers Web Design Graphic Design UI & UX<i class='bx bx-right-top-arrow-circle up-arrow-icon'></i>
-            </h2>
-          </a>
-        </div>
-      </div>
-      <div class="pro-card pro1" style="padding: 10px; margin: 10px; width: 35rem; background-color: #8285da; background-color: var(--card-bg-col);box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
-        border-radius: 7px;">
-        <img width="100%" src="./image/Cheat-Sheet-Template 02.png" alt="">
-        <div style="padding: 20px;">
-          <div
-            style="display: flex; justify-content: space-between; padding-bottom: 20px; font-size: var(--p-fontsize1);">
-            <p>DEVELOPMENT</p>
-            <div class="flex" style="gap: 10px;">
-              <i class='bx bx-heart'></i>
-              <p>530</p>
-            </div>
-          </div>
-          <a href="https://shehbaz456.github.io/Cheat-Sheet-Template/" target="_blank">
-            <h2>Online interactive HTML Cheat Sheet contains useful code<i
-                class='bx bx-right-top-arrow-circle up-arrow-icon'></i></h2>
-          </a>
-        </div>
-      </div>
-      <div class="pro-card pro1" style="padding: 10px; margin: 10px; width: 35rem; background-color: #8285da; background-color: var(--card-bg-col);box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
-        border-radius: 7px;">
-        <img width="100%" src="./image/color-picker.png" alt="">
-        <div style="padding: 20px;">
-          <div
-            style="display: flex; justify-content: space-between; padding-bottom: 20px; font-size: var(--p-fontsize1);">
-            <p>DEVELOPMENT</p>
-            <div class="flex" style="gap: 10px;">
-              <i class='bx bx-heart'></i>
-              <p>320</p>
-            </div>
-          </div>
-          <a href="https://shehbaz456.github.io/Color-picker/" target="_blank">
-            <h2>Our color picker to pic color in hex value <i class='bx bx-right-top-arrow-circle up-arrow-icon'></i>
-            </h2>
-          </a>
-        </div>
-      </div>
-      <div class="pro-card pro1" style="padding: 10px; margin: 10px; width: 35rem; background-color: #8285da; background-color: var(--card-bg-col);box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
-        border-radius: 7px;">
-        <img width="100%" src="./image/temprature converter.png" alt="">
-        <div style="padding: 20px;">
-          <div
-            style="display: flex; justify-content: space-between; padding-bottom: 20px; font-size: var(--p-fontsize1);">
-            <p>DEVELOPMENT</p>
-            <div class="flex" style="gap: 10px;">
-              <i class='bx bx-heart'></i>
-              <p>390</p>
-            </div>
-          </div>
-          <a href="https://shehbaz456.github.io/Temperature-Converter/" target="_blank">
-            <h2>Celsius to Fahrenheit conversion there is, but a simple °C to °F conversion. <i
-                class='bx bx-right-top-arrow-circle up-arrow-icon'></i></h2>
-          </a>
-        </div>
-      </div>
-      <div class="pro-card pro1" style="padding: 10px; margin: 10px; width: 35rem; background-color: #8285da; background-color: var(--card-bg-col);box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5), 7px 7px 20px 0px rgba(0, 0, 0, .1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
-        border-radius: 7px;">
-        <img width="100%" src="./image/landing page microsoft.png" alt="">
-        <div style="padding: 20px;">
-          <div
-            style="display: flex; justify-content: space-between; padding-bottom: 20px; font-size: var(--p-fontsize1);">
-            <p>DEVELOPMENT</p>
-            <div class="flex" style="gap: 10px;">
-              <i class='bx bx-heart'></i>
-              <p>463</p>
-            </div>
-          </div>
-          <a href="https://shehbaz456.github.io/microsoft-landing-page/" target="_blank">
-            <h2>Microsoft products and services for your home or business. Shop Surface, Microsoft 365, Xbox, Windows,
-              Azure and more<i class='bx bx-right-top-arrow-circle up-arrow-icon'></i></h2>
-          </a>
-        </div>
-      </div>
-    </div>
-    <br>
-    <section class="mackbook">
-      <img width="100%" src="./image/code help mackbook design.png" alt="">
-    </section>
-
-  </section>
-  <!-- =====================================
-      Start Our Resume section 
-      ===================================== -->
-
-      
-  <!-- <div class="empty-space" style="margin-inline: auto;width: 90%; border-top: 1px solid rgb(160, 157, 157);"></div>
-  <section>
-    <div class="heading-con text-center" style="padding-top: 7rem;">
-      <p style="color: var(--pri-pink-col); font-size: var(--p-fontsize1); padding-bottom: 2rem;">VISIT MY RESUME AND
-        KEEP YOUR FEEDBACK</p>
-      <h2 style="font-size: 4rem; font-weight: 700; padding-bottom: 4rem;">My Resume</h2>
-    </div>
-  </section> -->
-
-
-  <!-- =====================================
-      Start Our Contact section 
-      ===================================== -->
-  <div class="empty-space" style="margin-inline: auto;width: 90%;border-top: 1px solid rgb(160, 157, 157);"></div>
-  <section style="background-color: var(--main-bg-col); padding-bottom: 8rem;">
-    <div class="heading-con text-center" style="padding-top: 7rem;">
-      <p style="color: var(--pri-pink-col); font-size: var(--p-fontsize1); padding-bottom: 2rem;">CONTACT</p>
-      <h2 style="font-size: 4rem; font-weight: 700; padding-bottom: 4rem;">CONTACT WITH US</h2>
-    </div>
-    <div class="contact-con">
-      <div class="cont-left">
-        <img style="width: 100%; border-radius: 10px;" src="./image/contact1.png" alt="">
-        <div style="padding: 15px;">
-          <h3 style="font-size: 2rem;" style="padding: 10px 0;">ULTIMO TECH</h3>
-          <h4 class="cont-rig-font-col" style="padding: 10px 0;">Chief Officer</h4>
-          <p class="cont-rig-font-col">I am available for freelance work. Connect with me via and call in to my account.
-          </p>
-          <p class="cont-rig-font-col" style="padding: 10px 0;">Phone: +91 8700963385</p>
-          <p class="cont-rig-font-col">Email: Iamshehbaz01@gmail.com</p>
-        </div>
-        <div class="skills-sections" style="padding-right: 30px;">
-          <p style="font-size: 1.4rem; margin: 2rem;">FIND WITH ME</p>
-          <div class="icon-skill-con">
-            <a href="https://github.com/Shehbaz456">
-              <div class="icon-skill"><img src="./image/icons8-github.svg" alt=""></div>
-            </a>
-            <a href="https://www.linkedin.com/in/shehbaz-%F0%9F%A4%8D-823730228/">
-              <div class="icon-skill"><img src="./image/icons8-linkedin.svg" alt=""></div>
-            </a>
-            <div class="icon-skill"><img src="./image/icons8-gmail.svg" alt=""></div>
-          </div>
-        </div>
-      </div>
-      <div class="cont-right">
-
-        <!-- CONTACT FORM -->
-        <!-- 1-inside -->
-
-        <section class="contact-form-wrapper" id="contact">
-          <form action="https://formspree.io/f/xnqkgzpg" method="POST">
-
-            <div style="display: flex; flex-wrap: wrap;">
-            <div class="col-lg-6 ">
-              <div class="form-group">
-              <label for="name">Full Name</label>
-              <input  class="input-st"  type="name" name="name" />
-            </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="form-group">
-                <label  for="last-name">Last name</label>
-                <input  class="input-st" type="name" name="last-name" />
-              </div>
-            </div>
-          </div>
+        <div class="hero-section">
+          <div class="hero-content">
+            <p class="hero-subtitle animate fade-in">Welcome to my world</p>
+            <h1 class="hero-title animate fade-in delay-1">Hi, I'm <span>Shehbaz</span></h1>
+            <h4 class="hero-typed animate fade-in delay-2">a <span class="multi-text"></span></h4>
+            <p class="hero-description animate fade-in delay-3">
+              Full-stack Developer with IBM internship experience as a "Frontend Developer." 
+              Adept at both frontend and backend technologies, passionate about enhancing 
+              user experiences through innovative solutions.
+            </p>
             
-            <div class="col-lg-12 ">
-              <div class="form-group">
-                <label for="Email">Email</label>
-                <input  class="input-st" style="width: 42vw;" type="email" name="email" />
+            <div class="skills-section animate fade-in delay-4">
+              <div class="flex-between">
+                <div>
+                  <p class="skills-title">Best Skills On</p>
+                  <div class="skills-grid">
+                    <div class="skill-icon" title="JavaScript">
+                      <img src="./image/icons8-javascript.gif" alt="JavaScript">
+                    </div>
+                    <div class="skill-icon" title="React">
+                      <img src="./image/icons3-react.png" alt="React">
+                    </div>
+                    <div class="skill-icon" title="Node.js">
+                      <img src="./image/icons8-nodejs-48.png" alt="Node.js">
+                    </div>
+                    <div class="skill-icon" title="MongoDB">
+                      <img src="./image/icons1-mongodb.png" alt="MongoDB">
+                    </div>
+                  </div>
+                </div>
+                
+                <div>
+                  <p class="skills-title">Find With Me</p>
+                  <div class="skills-grid">
+                    <a href="https://github.com/Shehbaz456" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                      <div class="skill-icon">
+                        <img src="./image/icons8-github.svg" alt="GitHub">
+                      </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shehbazlovedev/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                      <div class="skill-icon">
+                        <img src="./image/icons8-linkedin.svg" alt="LinkedIn">
+                      </div>
+                    </a>
+                    <a href="mailto:shehbaz@example.com" aria-label="Email">
+                      <div class="skill-icon">
+                        <img src="./image/icons8-gmail.svg" alt="Email">
+                      </div>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-lg-12 ">
-              <div class="form-group">
-                <label for="Email">Email Subject</label>
-                <input  class="input-st" style="width: 42vw;" type="text" name="Emsubject" />
-              </div>
-            </div>
-            <div class="col-lg-12 ">
-              <label for="contact message">Your Message</label>
-              <textarea class="input-st" style="width: 42vw;" cols="20" rows="7" placeholder="Your Messege" name="message"></textarea>
-            </div>
-
-            <div class="col-lg-12 " style="margin-top: 20px;">
-              <button class="rn-btn input-st"  style="width: 42vw;" style="scale: 0.9;" type="submit" id="submit-btn">
-                Send message
-              </button>
-            </div>
-
-
-          </form>
-        </section>
+          </div>
+          
+          <div class="hero-image animate fade-in-right">
+            <img src="image/main img 05.png" alt="Shehbaz profile image">
+          </div>
+        </div>
       </div>
+    <!-- </section> -->
+    
+    <div class="divider"></div>
 
+    <!-- Features Section -->
+    <section id="features" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <p>Features</p>
+          <h2>What I Do</h2>
+        </div>
+        
+        <div class="features-grid">
+          <div class="feature-card frontend reveal reveal-up">
+            <div class="feature-icon frontend">
+              <img src="image/responsive-design.png" alt="Front-End Development Icon">
+            </div>
+            <h3 class="feature-title">Front-End Development</h3>
+            <p class="feature-description">
+              Creating responsive and visually appealing user interfaces using HTML, CSS, JavaScript, React, and Tailwind CSS. I focus on delivering seamless user experiences with clean, efficient designs.
+            </p>
+          </div>
+          
+          <div class="feature-card backend reveal reveal-up">
+            <div class="feature-icon backend">
+              <img src="svg-export/svgexport-14.svg" alt="Back-End Development Icon">
+            </div>
+            <h3 class="feature-title">Back-End Development</h3>
+            <p class="feature-description">
+              Building robust server-side applications with Node.js, Express, and MongoDB. I design and implement RESTful APIs, authentication systems, and scalable backend architectures.
+            </p>
+          </div>
+          
+          <div class="feature-card performance reveal reveal-up">
+            <div class="feature-icon performance">
+              <img src="svg-export/svgexport-15.svg" alt="Performance Optimization Icon">
+            </div>
+            <h3 class="feature-title">Performance Optimization</h3>
+            <p class="feature-description">
+              Enhancing application performance through best practices like code optimization, efficient state management, and responsive design to ensure smooth and fast user experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="divider"></div>
 
-    </div>
-    </div>
-  </section>
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <p>Visit My Projects And Keep Your Feedback</p>
+          <h2>My Projects</h2>
+        </div>
+        
+        <div class="projects-grid">
+          <div class="project-card reveal reveal-left">
+            <div class="project-image">
+              <img src="./image/CodeHelp.png" alt="Code Help Project Screenshot">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <p class="project-category">Development</p>
+                <div class="project-likes">
+                  <i class='bx bx-heart'></i>
+                  <span>340</span>
+                </div>
+              </div>
+              <a href="https://shehbaz456.github.io/Code-Help/" target="_blank" rel="noopener noreferrer">
+                <h3 class="project-title">
+                  Code Help is online learning platform Upskill students
+                  <i class='bx bx-right-top-arrow-circle arrow-icon'></i>
+                </h3>
+              </a>
+            </div>
+          </div>
+          
+          <div class="project-card reveal reveal-right">
+            <div class="project-image">
+              <img src="./image/javeline.png" alt="Javeline Project Screenshot">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <p class="project-category">Development</p>
+                <div class="project-likes">
+                  <i class='bx bx-heart'></i>
+                  <span>600</span>
+                </div>
+              </div>
+              <a href="https://shehbaz456.github.io/Jevelin-web/" target="_blank" rel="noopener noreferrer">
+                <h3 class="project-title">
+                  Jevelin-web CREATIVE AGENCY offers Web Design Graphic Design UI & UX
+                  <i class='bx bx-right-top-arrow-circle arrow-icon'></i>
+                </h3>
+              </a>
+            </div>
+          </div>
+          
+          <div class="project-card reveal reveal-left">
+            <div class="project-image">
+              <img src="./image/CheatSheet.png" alt="CheatSheet Project Screenshot">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <p class="project-category">Development</p>
+                <div class="project-likes">
+                  <i class='bx bx-heart'></i>
+                  <span>530</span>
+                </div>
+              </div>
+              <a href="https://shehbaz456.github.io/Cheat-Sheet-Template/" target="_blank" rel="noopener noreferrer">
+                <h3 class="project-title">
+                  Online interactive HTML Cheat Sheet contains useful code
+                  <i class='bx bx-right-top-arrow-circle arrow-icon'></i>
+                </h3>
+              </a>
+            </div>
+          </div>
+          
+          <div class="project-card reveal reveal-right">
+            <div class="project-image">
+              <img src="./image/color-picker.png" alt="Color Picker Project Screenshot">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <p class="project-category">Color Picker</p>
+                <div class="project-likes">
+                  <i class='bx bx-heart'></i>
+                  <span>320</span>
+                </div>
+              </div>
+              <a href="https://shehbaz456.github.io/Color-picker/" target="_blank" rel="noopener noreferrer">
+                <h3 class="project-title">
+                  Our color picker to pic color in hex value
+                  <i class='bx bx-right-top-arrow-circle arrow-icon'></i>
+                </h3>
+              </a>
+            </div>
+          </div>
+          
+          <div class="project-card reveal reveal-left">
+            <div class="project-image">
+              <img src="./image/temprature converter.png" alt="Temperature Converter Project Screenshot">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <p class="project-category">Development</p>
+                <div class="project-likes">
+                  <i class='bx bx-heart'></i>
+                  <span>390</span>
+                </div>
+              </div>
+              <a href="https://shehbaz456.github.io/Temperature-Converter/" target="_blank" rel="noopener noreferrer">
+                <h3 class="project-title">
+                  Celsius to Fahrenheit conversion there is, but a simple °C to °F conversion.
+                  <i class='bx bx-right-top-arrow-circle arrow-icon'></i>
+                </h3>
+              </a>
+            </div>
+          </div>
+          
+          <div class="project-card reveal reveal-right">
+            <div class="project-image">
+              <img src="./image/landing page microsoft.png" alt="Microsoft Landing Page Project Screenshot">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <p class="project-category">Development</p>
+                <div class="project-likes">
+                  <i class='bx bx-heart'></i>
+                  <span>463</span>
+                </div>
+              </div>
+              <a href="https://shehbaz456.github.io/microsoft-landing-page/" target="_blank" rel="noopener noreferrer">
+                <h3 class="project-title">
+                  Microsoft products and services for your home or business
+                  <i class='bx bx-right-top-arrow-circle arrow-icon'></i>
+                </h3>
+              </a>
+            </div>
+          </div>
+          
+          <div class="project-card reveal reveal-left">
+            <div class="project-image">
+              <img src="./image/ultimoimg.png" alt="Ultimo Tech Project Screenshot">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <p class="project-category">Ultimo Tech</p>
+                <div class="project-likes">
+                  <i class='bx bx-heart'></i>
+                  <span>463</span>
+                </div>
+              </div>
+              <a href="https://ultimo-tech-frontend.onrender.com/" target="_blank" rel="noopener noreferrer">
+                <h3 class="project-title">
+                  Developed a Management web app, secure JWT authentication
+                  <i class='bx bx-right-top-arrow-circle arrow-icon'></i>
+                </h3>
+              </a>
+            </div>
+          </div>
+          
+          <div class="project-card reveal reveal-right">
+            <div class="project-image">
+              <img src="./image/glimmer.png" alt="Glimmer Project Screenshot">
+            </div>
+            <div class="project-content">
+              <div class="project-meta">
+                <p class="project-category">Glimmer</p>
+                <div class="project-likes">
+                  <i class='bx bx-heart'></i>
+                  <span>302</span>
+                </div>
+              </div>
+              <a href="https://glimmer-unxo.onrender.com/listings" target="_blank" rel="noopener noreferrer">
+                <h3 class="project-title">
+                  Developed a listing platform Like Airbnb with CRUD operations
+                  <i class='bx bx-right-top-arrow-circle arrow-icon'></i>
+                </h3>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="macbook-showcase reveal fade-in-up">
+          <img src="./image/code help mackbook design.png" alt="Code Help Macbook Design">
+        </div>
+      </div>
+    </section>
+    
+    <div class="divider"></div>
 
-  <!-- =====================================
-      Start Our Script section 
-      ===================================== -->
-  <div class="bg-col" style="background-color: var(--main-bg-col);">
-    <div class="empty-space"
-      style="margin-inline: auto;width: 90%; padding: 2rem; border-top: 1px solid rgb(160, 157, 157);"></div>
-  </div>
-
-
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <p>Contact</p>
+          <h2>Contact With Me</h2>
+        </div>
+        
+        <div class="contact-grid">
+          <div class="contact-info reveal reveal-left">
+            <div class="contact-image">
+              <img src="./image/contact1.png" alt="Contact Image">
+            </div>
+            <h3 class="contact-title">ULTIMO TECH</h3>
+            <h4 class="contact-subtitle">Chief Officer</h4>
+            <p class="contact-text">I am available for freelance work. Connect with me via email and call in to my account.</p>
+            <p class="contact-detail">Phone: +91 8700963385</p>
+            <p class="contact-detail">Email: <a href="mailto:shehbaz@example.com">shehbaz@example.com</a></p>
+            
+            <div class="contact-social">
+              <p class="skills-title">Find With Me</p>
+              <div class="skills-grid">
+                <a href="https://github.com/Shehbaz456" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <div class="skill-icon">
+                    <img src="./image/icons8-github.svg" alt="GitHub">
+                  </div>
+                </a>
+                <a href="https://www.linkedin.com/in/shehbazlovedev/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <div class="skill-icon">
+                    <img src="./image/icons8-linkedin.svg" alt="LinkedIn">
+                  </div>
+                </a>
+                <a href="mailto:shehbaz@example.com" aria-label="Email">
+                  <div class="skill-icon">
+                    <img src="./image/icons8-gmail.svg" alt="Email">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form reveal reveal-right">
+            <form action="https://formspree.io/f/xnqkgzpg" method="POST">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="last-name" class="form-label">Last Name</label>
+                  <input type="text" id="last-name" name="last-name" class="form-control">
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="subject" class="form-label">Email Subject</label>
+                <input type="text" id="subject" name="subject" class="form-control">
+              </div>
+              
+              <div class="form-group">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea id="message" name="message" class="form-control" rows="7" placeholder="Your Message" required></textarea>
+              </div>
+              
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr style="width: 90%; margin: auto; ">
+    <div style="height: 30px;" ></div>
+  </main>
+  <!-- Footer -->
   <footer class="footer">
-    <div class="heading-con text-center" style="padding-top: 7rem;">
-      <img class="main-logo" src="./image/4AA-removebg-preview.svg" alt="">
-      <p style="color:var(--nav-col-black); font-size: var(--p-fontsize1); padding-bottom: 5rem;">© 2023. All rights
-        reserved by Shehbaz.</p>
+    <div class="container">
+      <img class="footer-logo" src="./image/logoIcon.svg" alt="Shehbaz Logo">
+      <p class="footer-text">© 2023. All rights reserved by Shehbaz.</p>
     </div>
   </footer>
 
-  <!-- Transforming Ideas into Seamless Digital Experiences. -->
-  <!-- =====================================
-      Start Our Script section 
-      ===================================== -->
+  <!-- Scripts -->
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-  <script src="index.js"></script>
+  
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
 </body>
-</body>
-
 </html>
